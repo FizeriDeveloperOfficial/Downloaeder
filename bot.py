@@ -10,7 +10,7 @@ def send_track_to_channel(file_path: str, title: str, author: str):
     Отправляет аудиофайл в Telegram-канал с нужной подписью.
     """
     # Формируем подпись: Название - Автор
-    caption_text = f"{title} - {author}  \n\n 🎵Больше музыки -> @MusicNaLuboiVkuss \n⬇️Загрузил: @MusicNaLuboiVkuss_bot"
+    caption_text = f"{title} - {author}"
     
     print(f"Отправка в Telegram: {caption_text}...")
     
